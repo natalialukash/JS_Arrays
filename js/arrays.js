@@ -21,9 +21,9 @@ function calcMiddleSum(arrOne){
 }
 //6.6
 function getChangeElement(arrOne){
-    arrOne.push(arrOne.at(-10))
-    arrOne.shift()
-    return arrOne
+    arrOne.push(arrOne.at(-10));
+    arrOne.shift();
+    return arrOne;
 }
 //6.7
 let sumChet=arrOne.reduce((sum, elem, index)=>{
